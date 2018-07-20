@@ -12,6 +12,8 @@ exec /bin/bash $@
 %post
 apt-get update
 apt-get -y install gcc wget clang python3 vim python-dev python-pip python-tk git
-git clone http://gitlab.com/jrenslo/arnaout.git
-cd arnaout/classifiers
-make install
+git clone http://github.com/jrenslo/singularity
+cd singularity
+pip install --upgrade pip
+pip install -r requirements.txt
+python setup_script.py

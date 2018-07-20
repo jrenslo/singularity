@@ -1,0 +1,14 @@
+-c constraints.txt
+tqdm==4.23.4
+--only-binary numpy==1.14.5
+pandas==0.23.1
+scipy==1.1.0
+matplotlib==2.2.2
+scikit-learn==0.19.1
+editdistance==0.4
+nltk==3.3
+pytest
+pylint
+coverage
+pytest-cov
+commandr

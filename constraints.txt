@@ -1,0 +1,5 @@
+# constraints file contains packages imported by pip only if other packages require them
+xlrd==1.1.0
+IPython==6.4.0; python_version>="3.0"
+PyQt5==5.11.2; python_version>="3.0"
+seaborn==0.9.0
