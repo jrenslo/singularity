@@ -12,7 +12,7 @@ exec /bin/bash $@
 %post
 apt-get update
 apt-get -y install gcc wget clang python3 vim python-dev python-pip python-tk git
-git clone http://github.com/jrenslo/singularity
+git clone http://github.com/jrenslo/singularity repo
 cd singularity
 pip install --upgrade pip
 pip install -r requirements.txt
