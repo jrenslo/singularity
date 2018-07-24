@@ -14,6 +14,7 @@ apt-get update
 apt-get -y install gcc wget clang python3 vim python-dev python-pip python-tk git
 git clone http://github.com/jrenslo/singularity repo
 cd repo
-pip install --upgrade pip
+echo "Installing pip now"
+#pip install --upgrade pip
 pip install -r requirements.txt
 python setup_script.py
