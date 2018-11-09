@@ -1,5 +1,5 @@
 Bootstrap:docker
-From:ubuntu:latest
+From:tensorflow/tensorflow
 
 %labels
 Maintainer jrenslo
