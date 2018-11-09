@@ -1,0 +1,5 @@
+11/5
+
+[ ] include spacy and spacy initialization
+
+[ ] UMLS/Quickumls?
