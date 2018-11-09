@@ -18,6 +18,7 @@ echo "Installing pip now"
 #pip install --upgrade pip
 pip install -r requirements.txt
 python setup_script.py
+python -m spacy download en_core_web_lg
 
 #for tensorflow
 #apt-get install pkg-config zip g++ zlibg-dev unzip
