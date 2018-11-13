@@ -10,7 +10,8 @@ apt-get update
 apt-get -y install gcc wget clang vim git
 git clone http://github.com/jrenslo/singularity repo
 cd repo
-pip install --upgrade pip
-pip install -r requirements.txt
-python setup_script.py
-python -m spacy download en_core_web_lg
+#pip install --upgrade pip
+#pip install -r requirements.txt
+pip3 install tqdm spacy nltk editdistance scikit-learn
+python3 setup_script.py
+python3 -m spacy download en_core_web_lg
