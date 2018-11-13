@@ -1,2 +1,5 @@
 Bootstrap:docker
 From:tensorflow/tensorflow:1.5.0-py3
+
+%post
+pip install -r requirements.txt
