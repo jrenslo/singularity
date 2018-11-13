@@ -1,3 +1,5 @@
+Bootstrap:docker
+From:tensorflow/tensorflow
 
 %labels
 Maintainer jrenslo
