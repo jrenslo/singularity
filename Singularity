@@ -1,2 +1,2 @@
 Bootstrap:docker
-From:tensorflow/tensorflow:latest-py3
+From:tensorflow/tensorflow:r1.4-py3
