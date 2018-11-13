@@ -1,6 +1,10 @@
 Bootstrap:docker
 From:tensorflow/tensorflow:1.5.0-py3
 
+%environment
+TFHUB_CACHE_DIR=/netapp/home/jrenslo/tfhub_cache
+_TFHUB_CACHE_DIR=$TFHUB_CACHE_DIR
+
 %post
 apt-get update
 apt-get -y install gcc wget clang python3 vim python-dev python-pip python-tk git
