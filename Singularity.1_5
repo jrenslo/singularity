@@ -6,8 +6,6 @@ TFHUB_CACHE_DIR=/netapp/home/jrenslo/tfhub_cache
 _TFHUB_CACHE_DIR=$TFHUB_CACHE_DIR
 
 %post
-apt-get update
-apt-get -y install gcc wget clang vim git
 git clone http://github.com/jrenslo/singularity repo
 cd repo
 pip install --upgrade pip

@@ -1,6 +1,6 @@
 -c constraints.txt
 tqdm>=4.23.4,<5.0.0
---only-binary numpy>=1.14.5,<2.0.0
+numpy>=1.14.5,<2.0.0
 pandas>=0.23.1,<1.0.0
 scipy>=1.1.0,<2.0.0
 matplotlib>=2.2.2,<3.0.0
