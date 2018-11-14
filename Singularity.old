@@ -5,8 +5,8 @@ From:ubuntu:latest
 Maintainer jrenslo
 
 %environment
-pip=pip3
-python=python3
+alias pip=pip3
+alias python=python3
 
 %runscript
 exec /bin/bash $@  # runs whichever arguments given to the script
